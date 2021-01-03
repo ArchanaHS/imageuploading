@@ -1,0 +1,79 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+  #background{
+    
+    background-image: url(image/c6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    margin: 10px 0;
+
+
+  }
+  .nav{
+    width:300px;
+    height: auto;
+    
+    position: absolute;
+    top: 18%;
+    left: 0;
+   
+
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+    display: inline-block;
+    height: 60px;
+    margin: 5px 0;
+   
+    background-color: rgb(15, 4, 4);
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    transition: 300ms;
+}
+a.active,
+.nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+
+}
+.a{
+    width: 90%;
+}
+.b{
+    width: 85%;
+}
+.c{
+    width: 80%;
+}
+.d{
+    width: 95%;
+}
+.Upload{
+    background:black;
+    text-align: center;
+    width: 100%;
+    
+    height: auto;
+    position: absolute;
+    top: 10%;
+    float: left;
+    opacity: 0.7;
+    right: 600px;
+    color:white;
+    display: none;
+
+
+ }
+
+
